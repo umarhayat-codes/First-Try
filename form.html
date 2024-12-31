@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch - 7  Form</title>
+</head>
+<body>
+    <header style="text-align: center; margin: auto;">
+        <nav>
+            <a href="table.html" target="_blank"> Table</a>
+            <a href="list.html" target="_blank"> List</a>
+            <a href="text.html" target="_blank"> Text</a>
+        </nav>
+    </header>
+    <main>
+        <h2 style="text-align: center;">Ch-7 Form</h2>
+        <form method="get">
+            <input type="text" placeholder="FirstName" name="FirstName" ><br><br>
+            <input type="text" placeholder="LastName" name="LastName"> <br> <br>
+            <input type="text" placeholder="City" name="City"> <br><br>
+            <input type="submit" placeholder="submit">
+        </form>
+
+        <hr />
+
+        <fieldset style="width: 200px; text-align: center; margin: auto;">
+            <legend>Login</legend>
+            <form>
+                <input type="email" placeholder="Enter your email" name="email"><br><br>
+                <input type="password" placeholder="password" password="password"><br><br>
+                <input type="submit" value="Login">
+            </form>
+        </fieldset>
+
+        <hr />
+
+        <h2>Feed back Form</h2>
+        <form>
+           <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+           </div>
+           <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email">
+           </div>
+           <div>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password" password="password" id="password" max="15" min="8" required>
+           </div>
+           <h5>Please select all emotion that you apply </h5>
+           <div>
+            <input type="checkbox" name="emotion-angry" id="emotion-angry">
+            <label for="emotion-angry">Angry:</label>
+           </div>
+           <div>
+            <input type="checkbox" name="emotion-sad" id="emotion-sad">
+            <label for="emotion-sad">Sad:</label>
+           </div>
+           <div>
+            <input type="checkbox" name="emotion-happy" id="emotion-happy">
+            <label for="emotion-happy">Happy:</label>
+           </div>
+           <h5>How satisfication were you with own services</h5>
+           <div>
+            <label for="satisfy">Satisfy</label>
+            <input type="radio" name="services" value="Satisfy" id="satisfy">
+           </div>
+           <div>
+            <label for="very satisfy">Very satisfy</label>
+            <input type="radio" name="services" value="very satisfy" id="very satisfy">
+           </div>
+           <div>
+            <label for="dissatisfy">Dissatisfy</label>
+            <input type="radio" name="services" value="dissatisfy" id="dissatisfy">
+           </div>
+           <div>
+            <h5>What your gender ?</h5>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female" id="female">
+           </div>
+           <div>
+            <label for="comment">Commment</label>
+            <textarea name="comment" id="comment" cols="10" rows="3"></textarea>
+           </div>
+           <br><br>
+           <div>
+            <label for="bio photo">Bio Photo</label>
+            <input type="file" name="bio photo" id="bio photo">
+           </div>
+           <br><br>
+           <div>
+            <label for="location visited">Location Visited</label>
+            <select name="location visited" id="location visited">
+                <option value="faisalabad">FSD</option>
+                <option value="karachi">KHR</option>
+                <option value="lahore">LHR</option>
+            </select>
+           </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
